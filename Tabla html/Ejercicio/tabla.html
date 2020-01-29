@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body>
+    <caption>
+        <h1 class="text-center">Tabla de Nombres</h1>
+    </caption>
+    <table class="table table-bordered table-hover">
+        <thead class="table-info">
+            <tr>
+                <th>No.</th>
+                <th>Nombre</th>
+                <th>Asignatura</th>
+                <th>Profesor</th>
+                <th>Calificación</th>
+                <th>Resultado Final</th>
+            </tr>
+        </thead>
+        <tbody class="table-success">
+            <tr>
+                <th>1</th>
+                <td>Pedro</td>
+                <td>CSS</td>
+                <td>Cristian</td>
+                <td>90</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>Juan</td>
+                <td>CSS</td>
+                <td rowspan="2" class="text-center">Carlos</td>
+                <td class="table-danger">85</td>
+                <td class="table-danger">87</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td colspan="2" class="text-center">Lorenzo</td>
+                <td>95</td>
+                <td class="table-warning">99</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Paula</td>
+                <td>JavaScript</td>
+                <td>Julian</td>
+                <td class="table-danger">87</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+</body>
+
+</html>

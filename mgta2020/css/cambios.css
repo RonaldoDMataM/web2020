@@ -1,35 +1,38 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.icon-bar {
+    width: 100%;
+    /* Full-width */
+    background-color: #000;
+    /* Dark-grey background */
+    overflow: auto;
+    /* Overflow due to float */
+    display: flex;
+    justify-content: space-around;
 }
-
-li a {
-    display: block;
-    width: 200px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
+.icon-bar a {
+    
+    /* Float links side by side */
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    /* Center-align text */
+    width: 20%;
+    /* Equal width (7 icons with 20% width each = 100%) */
+    padding: 10px 0;
+    /* Some top and bottom padding */
+    transition: all 0.3s ease;
+    /* Add transition for hover effects */
+    color: white;
+    /* White text color */
+    font-size: 20px;
+    /* Increased font size */
+}
+.icon-bar a:hover {
+    background-color: #000;
+    /* Add a hover color */
+}
+.active {
+    background-color: #4CAF50;
+    /* Add an active/current color */
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+body {
+background-image: url(https://besthqwallpapers.com/Uploads/18-6-2019/95880/flag-of-nueva-esparta-state-4k-silk-flag-venezuelan-state-nueva-esparta-state.jpg)
 }
